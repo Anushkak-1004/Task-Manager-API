@@ -1,0 +1,13 @@
+com\taskmanager\api\dto\TaskRequestDto.class
+com\taskmanager\api\model\TaskStatus.class
+com\taskmanager\api\repository\TaskRepository.class
+com\taskmanager\api\dto\ErrorResponseDto.class
+com\taskmanager\api\service\TaskService.class
+com\taskmanager\api\dto\TaskResponseDto.class
+com\taskmanager\api\model\Task.class
+com\taskmanager\api\model\TaskPriority.class
+com\taskmanager\api\TaskManagerApplication.class
+com\taskmanager\api\exception\TaskNotFoundException.class
+com\taskmanager\api\controller\TaskController.class
+com\taskmanager\api\exception\GlobalExceptionHandler.class
+com\taskmanager\api\dto\TaskMapper.class

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Task Manager</h1>
+            <p class="subtitle">Manage your tasks efficiently</p>
+        </header>
+
+        <!-- Error Message Area -->
+        <div id="errorMessage" class="error-message hidden"></div>
+        
+        <!-- Success Message Area -->
+        <div id="successMessage" class="success-message hidden"></div>
+
+        <!-- Create Task Form -->
+        <section class="form-section">
+            <h2>Create New Task</h2>
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="title">Title *</label>
+                    <input type="text" id="title" name="title" required placeholder="Enter task title">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="3" placeholder="Enter task description (optional)"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="status">Status *</label>
+                        <select id="status" name="status" required>
+                            <option value="TODO">To Do</option>
+                            <option value="IN_PROGRESS">In Progress</option>
+                            <option value="DONE">Done</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="priority">Priority</label>
+                        <select id="priority" name="priority">
+                            <option value="">None</option>
+                            <option value="LOW">Low</option>
+                            <option value="MEDIUM">Medium</option>
+                            <option value="HIGH">High</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dueDate">Due Date</label>
+                        <input type="date" id="dueDate" name="dueDate">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Create Task</button>
+            </form>
+        </section>
+
+        <!-- Tasks List -->
+        <section class="tasks-section">
+            <div class="section-header">
+                <h2>All Tasks</h2>
+                <span id="taskCount" class="task-count">0 tasks</span>
+            </div>
+            
+            <div id="loadingSpinner" class="loading">Loading tasks...</div>
+            <div id="tasksList" class="tasks-list"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

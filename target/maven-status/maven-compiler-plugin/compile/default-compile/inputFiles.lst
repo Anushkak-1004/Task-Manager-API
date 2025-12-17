@@ -1,0 +1,13 @@
+D:\Task Manager App\src\main\java\com\taskmanager\api\dto\TaskMapper.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\dto\TaskResponseDto.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\controller\TaskController.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\service\TaskService.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\TaskManagerApplication.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\dto\ErrorResponseDto.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\model\TaskStatus.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\exception\GlobalExceptionHandler.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\dto\TaskRequestDto.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\model\TaskPriority.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\model\Task.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\repository\TaskRepository.java
+D:\Task Manager App\src\main\java\com\taskmanager\api\exception\TaskNotFoundException.java
